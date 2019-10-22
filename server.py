@@ -13,5 +13,3 @@ def getAll():
 def postOne():
     body = request.json
     return (Medicion.create(body))
-
-app.run(port=4000, debug=True)
